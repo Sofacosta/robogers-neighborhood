@@ -11,6 +11,11 @@ $(document).ready(function(event) {
     if (number1.includes(inputString[i])) {
       inputString[i] = "Beep!";
     }
+
+    for (let i= 0; i < inputString.length; i += 1)
+    if (number2.includes(inputString[i])) {
+      inputString[i] = "Boop!";
+    }
     $("p").html(inputString);
   });
 });
