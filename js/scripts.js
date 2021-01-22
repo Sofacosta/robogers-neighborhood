@@ -3,5 +3,5 @@ $(document).ready(function () {
     event.preventDefault();
     $("#result").show();
     const inputNumber = parseInt ($("input#number").val());
-    
 
+    
