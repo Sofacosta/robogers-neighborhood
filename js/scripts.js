@@ -16,6 +16,12 @@ $(document).ready(function(event) {
     if (number2.includes(inputString[i])) {
       inputString[i] = "Boop!";
     }
+
+    for (let i= 0; i < inputString.length; i += 1)
+    if (number3.includes(inputString[i])) {
+      inputString[i] = "Won't you be my neighbor?";
+    }
+
     $("p").html(inputString);
   });
 });
