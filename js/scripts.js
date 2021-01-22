@@ -4,7 +4,13 @@ $(document).ready(function(event) {
     $("#result").show();
     const inputNumber = $("input#userNumber").val();
     let inputString = inputNumber.split("");  
-    console.log(inputString);
+    const number1 = ["1"];
+    const number2 = ["2"];
+    const number3 = ["3"];
+    for (let i= 0; i < inputString.length; i += 1)
+    if (number1.includes(inputString[i])) {
+      inputString[i] = "Beep!";
+    }
     $("p").html(inputString);
   });
 });
