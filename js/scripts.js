@@ -21,7 +21,6 @@ $(document).ready(function(event) {
      if (number3.includes(inputString[i])) {
        inputString[i] = "Won't you be my neighbor?";
      }
-
     $("p").html(inputString);
   });
 });
