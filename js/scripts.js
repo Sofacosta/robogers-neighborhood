@@ -1,6 +1,7 @@
 $(document).ready(function(event) {
-  $("form#formInput").submit(function (event) {
+  $("form#formInput").submit(function(event) {
     event.preventDefault();
+
     const inputNumber = $("input#userNumber").val();
     let numberArray = [];
 
@@ -24,6 +25,9 @@ $(document).ready(function(event) {
       return numberInstance + ', ';
     })
 
+    // user interface
+
     $("#result").html(outputArray);
   });
 });
+

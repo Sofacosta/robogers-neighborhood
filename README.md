@@ -8,28 +8,25 @@ This is my indepentent project to showcase the lesson learned last week: Arrays 
 
 ```
 Describe: beepBop()
-Test: "It should return an array of numbers inputted by the user including the number 0"
-Expect(beepBoop(08234)).toEqual(["08234"]);
+Test: "It should return an array of numbers from 0 to the inputted number the user"
+Expect(beepBoop(3)).toEqual(["0", "1","2","3"]);
 
 Describe: beepBop()
-Test:"It should return "Beep!" when number 1 is inputted in any given number" 
-Expect(beepBoop(1)).toEqual(["Beep!"])
+Test:"Replace numbers with 3 with "Won't you be my neighbor""  
+Expect(beepBoop(3)).toEqual(["0", "1", "2","Won't you be my neighbor"])
 
 Describe: beepBop()
-Test:"It should return "Boop!" when number 2 is inputted in any given number"
-Expect(beepBop(2)).toEqual(["Boop!"])
+Test:"Replace numbers with 2 with "Boop!""
+Expect(beepBop(3)).toEqual(["0", "1","Boop!","Won't you be my neighbor?"])
 
 Describe: beepBop()
-Test:"It should return "Won't you be my neighbor?" when number 3 is inputted in any given number"
-Expect(beepBop(3)).toEqual(["Won't you be my neighbor?"])
+Test:"Replace numbers with 1 with "Beep!""
+Expect(beepBop(1)).toEqual(["Beep"])
 
 Describe: beepBop()
-Test:"It should create a new array with inputted number"
-Expect(beepBop(54)).toEqual(["54"])
+Test:"Mantain a hierarchy wthin the exception rules (s trump 2s trump which trump 1s"
+Expect(beepBop()).toEqual()
 
-Describe: beepBop()
-Test:"It should create and return a string of individual values of inputted number where value 3,2 and 1 returns a specific text"
-Expect(beepBop)(5)).toEqual(["0", "Beep!", "Boop!", "Won't you be my neighbor?", "4", "5"])
 ```
 
 ## Technologies Used
@@ -38,8 +35,16 @@ Expect(beepBop)(5)).toEqual(["0", "Beep!", "Boop!", "Won't you be my neighbor?",
 * CSS
 * JQuery
 ## Set up / Installation requirements
-* Clone this repository into your Github profile
-* Create your own project and copy code to your project
+* Download a .zip copy of this repository:https://github.com/Sofacosta/programming-language-suggester by clicking the green "code" button. 
+* Launch the index.html file into your browser
+ 
+OR
+ 
+* Open your terminal and navigate to the folder where you would like to save this project
+* Clone this repository in your terminal: $ git clone
+* Go to the top level of the repository: $ cd programming-language-suggester
+* Open index.html into your browser: $ open index.html
+
 ## Known Bugs 
 * No known bugs
 ## Notes
