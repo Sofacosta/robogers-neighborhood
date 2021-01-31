@@ -7,9 +7,9 @@ This is my indepentent project to showcase the lesson learned last week: Arrays 
 ## Specs
 
 ```
-Describe: beepBop()
+Describe: numberArray()
 Test: "It should return an array of numbers from 0 to the inputted number the user"
-Expect(beepBoop(3)).toEqual(["0", "1","2","3"]);
+Expect(numberArray(3)).toEqual(["0", "1","2","3"]);
 
 Describe: beepBop()
 Test:"Replace numbers with 3 with "Won't you be my neighbor""  
@@ -24,7 +24,7 @@ Test:"Replace numbers with 1 with "Beep!""
 Expect(beepBop(1)).toEqual(["Beep"])
 
 Describe: beepBop()
-Test:"Mantain a hierarchy wthin the exception rules (s trump 2s trump which trump 1s"
+Test:"Mantain a hierarchy within the exception rules (3s trump 2s trump which trump 1s"
 Expect(beepBop()).toEqual()
 
 ```
